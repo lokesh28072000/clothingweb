@@ -13,7 +13,7 @@ li{
     text-decoration: none;
     list-style: none;
     /* display: flex; */
-    color: white;
+    color: rgb(0, 0, 0);
     /* text-align: end;
     justify-content: end; */
 }
@@ -26,7 +26,7 @@ li:hover{
 nav{
     display:flex;
     text-align: end;
-    background-color: gray; 
+    background-color:whitesmoke; 
     justify-content: end;
     list-style: none;
     margin: 0;
@@ -93,7 +93,7 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 footer{
     margin-top: 50px;
-    background-color: black;
+    background-color: rgb(95, 93, 93);
     text-align: center;
     justify-content: center;
     color: white;
@@ -102,8 +102,12 @@ footer{
 }
 
 footer a{
-    color: blue;
+    color:white;
     cursor: pointer;
+}
+footer a:hover{
+  color:rgb(241, 8, 8);
+  cursor: pointer;
 }
 
 footer h2{
@@ -253,15 +257,16 @@ video::-webkit-media-controls {
     .container {
       flex-direction: row;
     }
-     /* .card{
+     .card{
       margin-top: 50px;
       margin-left: 50px;
-      width: 27%;
-    }  */
-    /* img{
-        width: 250px;
+      width: 350px;
+      height: auto;
+    } 
+    img{
+        width: 350px;
         height: auto;
-    } */
+    }
       
     } 
 
@@ -276,6 +281,11 @@ video::-webkit-media-controls {
   }
     .card {
     flex-basis: 90%;
+ 
+  } 
+
+  .card {
+    width:200px;
  
   } 
    img{
@@ -309,6 +319,10 @@ video::-webkit-media-controls {
    img{
     width: 500px;
     height: auto;
+   }
+   
+   .card{
+    width: 500px;
    }
       .container{
         justify-content: center;
